@@ -45,7 +45,7 @@ class PokeclickerAutomationUpdater
     static automationDir = `pokeclicker-automation-master`;
     static automationFullPath = `${dataDir}/${this.automationDir}/`;
     static versionPath = `${this.automationFullPath}version.sha1`;
-    static latestCommitSha1Url = 'https://api.github.com/repos/Farigh/pokeclicker-automation/commits?sha=master&per_page=1';
+    static latestCommitSha1Url = 'https://api.github.com/repos/Aleqsd/pokeclicker-automation/commits?sha=master&per_page=1';
 
     static getCurrentVersion()
     {
@@ -141,7 +141,7 @@ class PokeclickerAutomationUpdater
 
         const zipFilePath = `${dataDir}/automation-update.zip`;
         const file = fs.createWriteStream(zipFilePath);
-        https.get('https://codeload.github.com/Farigh/pokeclicker-automation/zip/master',
+        https.get('https://codeload.github.com/Aleqsd/pokeclicker-automation/zip/master',
             async (res) =>
             {
                 res.pipe(file).on('finish',

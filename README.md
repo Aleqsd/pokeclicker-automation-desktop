@@ -13,7 +13,7 @@ A web wrapper for Pokeclicker with scripts support
 ![](https://i.imgur.com/5QQfoiZ.png)
 
 ## Features from the `With Scripts support` version:
-- Runs the [pokeclicker-automation](https://github.com/Farigh/pokeclicker-automation), which can be disabled
+- Runs the [pokeclicker-automation](https://github.com/Aleqsd/pokeclicker-automation), which can be disabled
 - Allows to add more scripts to run (with toggles to enable/disable them individually)
 - CLI support
 ```text
@@ -22,3 +22,9 @@ Available arguments:
   --disable-scripts   Disables the custom scripts execution
                       This can be usefull if the scripts messes everything up
 ```
+
+## Building
+- `npm install` to pull Electron and builder dependencies.
+- `npm start` to launch the app pointing at the Aleqsd automation fork.
+- `npm run win` / `npm run win-portable` / `npm run linux` to create distributable builds.
+- On first launch the app fetches the latest `master` snapshot of `Aleqsd/pokeclicker-automation` into your Electron user data folder; restart with `--disable-scripts` if you need to temporarily skip loading custom scripts.

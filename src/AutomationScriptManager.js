@@ -25,7 +25,7 @@ class AutomationScriptManager
     static __internal__storageKeyPrefix = "Pokeclicker-Scripts-";
     static __internal__defaultScriptErrors = null;
     static __internal__defaultScriptErrorsLabel = null;
-    static __internal__defaultScriptKeyPrefix = `${this.__internal__storageKeyPrefix}Farigh-Automation-`;
+    static __internal__defaultScriptKeyPrefix = `${this.__internal__storageKeyPrefix}Aleqsd-Automation-`;
     static __internal__defaultScriptEnabledKey = `${this.__internal__defaultScriptKeyPrefix}Enabled`;
     static __internal__defaultScriptDisableFeatureKey = `${this.__internal__defaultScriptKeyPrefix}FeatureDisabledByDefault`;
     static __internal__defaultScriptDisableSettingsKey = `${this.__internal__defaultScriptKeyPrefix}SettingsDisabledByDefault`;
