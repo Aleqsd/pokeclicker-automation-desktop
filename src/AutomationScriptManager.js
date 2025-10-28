@@ -300,7 +300,7 @@ class AutomationScriptManager
         const defaultScriptContainer = document.createElement("div");
 
         const defaultScriptElem = this.__internal__addScriptElement(
-            { name: "Pokeclicker automation", storageKey: this.__internal__defaultScriptEnabledKey }, false);
+            { name: "Pokeclicker automation (Aleqsd)", storageKey: this.__internal__defaultScriptEnabledKey }, false);
         defaultScriptContainer.appendChild(defaultScriptElem);
 
         this.__internal__defaultScriptErrorsLabel = document.createElement("span");
